@@ -1,6 +1,6 @@
 export const indexTemplate = (content) => `
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
