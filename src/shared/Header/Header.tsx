@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from '../Button';
 import { FullContent } from './FullContent';
-import logo from '../../img/logo.png'
 import styles from './header.css';
 
 interface IHeaderProps {
@@ -19,7 +18,7 @@ export function Header({ full }: IHeaderProps) {
 		<header className={styles.header}>
 			<div className='container'>
 				<div className={styles.headerCont}>
-					<img src={logo} alt="Logo" />
+					<img src='static/img/logo.png' alt="Logo" />
 					{content}
 				</div>
 			</div>
