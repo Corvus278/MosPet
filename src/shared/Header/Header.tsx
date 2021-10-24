@@ -18,7 +18,7 @@ export function Header({ full }: IHeaderProps) {
 		<header className={styles.header}>
 			<div className='container'>
 				<div className={styles.headerCont}>
-					<img src='static/img/logo.png' alt="Logo" />
+					<img className={styles.logo} src='static/img/logo.png' alt="Logo" />
 					{content}
 				</div>
 			</div>

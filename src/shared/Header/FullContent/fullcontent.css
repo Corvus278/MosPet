@@ -1,6 +1,28 @@
+.headerContent {
+	display: flex;
+}
+
 .heading {
 	max-width: 532px;
 	margin: 0;
+	margin-bottom: 70px;
 	font-size: 48px;
 	line-height: 62.35px;
+}
+
+.headingDesc {
+	margin: 0;
+	margin-bottom: 80px;
+}
+
+.descString {
+	display: block;
+	line-height: 31.8px;
+}
+
+.backImg {
+	width: 564.88px;
+	height: 417px;
+	background: url("/static/img/cat-paws.png") no-repeat;
+	background-size: cover;
 }

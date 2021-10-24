@@ -4,7 +4,7 @@ import styles from './fullcontent.css';
 
 export function FullContent() {
 	return (
-		<div>
+		<div className={styles.headerContent}>
 			<div className={styles.mainContent}>
 				<h1 className={styles.heading}>
 					Пропал ваш любимый питомец?
