@@ -1,9 +1,5 @@
 .header {
-	padding-top: 40px;
-	padding-bottom: 88px;
-	background-image: linear-gradient(var(--header-gradient), var(--white));
-}
-
-.logo {
 	margin-bottom: 87px;
+	padding-top: 40px;
+	background-image: linear-gradient(var(--header-gradient), var(--white));
 }

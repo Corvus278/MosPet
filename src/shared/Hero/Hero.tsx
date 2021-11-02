@@ -1,10 +1,11 @@
 import React from 'react';
-import { Button } from '../../Button';
-import styles from './fullcontent.css';
+import { Button } from '../Button';
+import styles from './hero.css';
 
-export function FullContent() {
+export function Hero() {
 	return (
-		<div className={styles.headerContent}>
+		<section className={styles.heroSection + ' container'}>
+			<div className={styles.backImg}></div>
 			<div className={styles.mainContent}>
 				<h1 className={styles.heading}>
 					Пропал ваш любимый питомец?
@@ -16,7 +17,6 @@ export function FullContent() {
 				</p>
 				<Button text='Потерял питомца' />
 			</div>
-			<div className={styles.backImg}></div>
-		</div>
+		</section>
 	);
 }
